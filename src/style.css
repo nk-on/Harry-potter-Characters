@@ -7,6 +7,22 @@
   --bg-color: #111d4a;
   --clr-white: #eee;
 }
-body{
-    background-color: var(--bg-color);
+body {
+  background-color: var(--bg-color);
+}
+search{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+form input{
+    height: 5vh;
+    width: 50%;
 }
