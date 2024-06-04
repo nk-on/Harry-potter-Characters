@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>Harry potter Characters</h1>
+    <h1 class = "title">Harry potter Characters</h1>
     <search>
       <form>
         <input
@@ -18,5 +18,15 @@
         />
       </form>
     </search>
+    <main class="container" data-container>
+      <template id="character">
+        <div class="character-card">
+          <img src="" alt="Character-pic" data-image />
+          <h1 data-name></h1>
+          <h2 data-house></h2>
+        </div>
+      </template>
+    </main>
+    <script src="src/script.js"></script>
   </body>
 </html>
