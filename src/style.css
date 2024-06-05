@@ -16,7 +16,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--bg-color);
 }
-h1 {
+.title {
   margin-top: 10vh;
   color: var(--clr-white);
 }
@@ -36,9 +36,12 @@ form input {
   height: 5vh;
   width: 50%;
 }
-.card {
+.character-card{
   width: min(40vw,200px);
   height: 30vh;
   background-color: var(--clr-white);
   box-shadow: 10px 10px 5px 0px var(--clr-dark);
+}
+.character-card img{
+  height: 50%;
 }
