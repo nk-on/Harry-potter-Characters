@@ -16,17 +16,17 @@ Features
    Search Bar: Users can search for specific characters by typing their name into the search bar.
    Instant Filtering: As users type, the list of character cards is dynamically filtered to match the search query, providing instant results and a seamless browsing experience.
 
-Technical Implementation
+## Technical Implementation
 
-## HTML
+### HTML
 
 The HTML structure defines the layout of the app, including the container for the character cards and the search bar. Each character card is created using a standard HTML template to ensure consistency.
 
-## CSS
+### CSS
 
 CSS is used to style the app, creating an attractive and cohesive visual design. The character cards are designed with a clean and modern look, featuring responsive layouts to ensure a great user experience on both desktop and mobile devices.
 
-## JavaScript
+### JavaScript
 
 JavaScript powers the dynamic aspects of the app, such as the search functionality and the filtering of character cards. Event listeners are used to capture user input and update the displayed characters in real time.
 User Experience
